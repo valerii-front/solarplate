@@ -1,0 +1,156 @@
+.offer__section {
+  font-family: 'Montserrat', sans-serif;
+  height: 800px;
+}
+
+.offer__section .container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.offer__section .container h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.offer__section .container .offers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.offer__section .container .offers .offer__home {
+  width: 380px;
+}
+
+.offer__section .container .offers .offer__home .offer__home_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 487px;
+  width: 380px;
+  background-image: url("./img/house_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: .5rem;
+  border-radius: 4px;
+}
+
+.offer__section .container .offers .offer__home .offer__home_title h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.1rem;
+}
+
+.offer__section .container .offers .offer__home p {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5rem;
+  background-color: #f4cb38;
+  border-radius: 4px;
+}
+
+.offer__section .container .offers .offer__business {
+  width: 380px;
+}
+
+.offer__section .container .offers .offer__business .offer__business_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 487px;
+  width: 380px;
+  background-image: url("./img/business_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: .5rem;
+  border-radius: 4px;
+}
+
+.offer__section .container .offers .offer__business .offer__business_title h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.1rem;
+}
+
+.offer__section .container .offers .offer__business p {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5rem;
+  border-radius: 4px;
+  background-color: #f4cb38;
+}
+
+.offer__section .container .offers .offer__farmy {
+  width: 380px;
+}
+
+.offer__section .container .offers .offer__farmy .offer__farmy_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 487px;
+  width: 380px;
+  background-image: url("./img/farmy_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: .5rem;
+  border-radius: 4px;
+}
+
+.offer__section .container .offers .offer__farmy .offer__farmy_title h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.1rem;
+}
+
+.offer__section .container .offers .offer__farmy p {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5rem;
+  border-radius: 4px;
+  background-color: #f4cb38;
+}
+/*# sourceMappingURL=Offer.css.map */

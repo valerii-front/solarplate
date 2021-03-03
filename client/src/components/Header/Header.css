@@ -1,0 +1,130 @@
+header {
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #f4cb38;
+  background: -webkit-gradient(linear, left top, right top, from(#f4cb38), to(#f4a938));
+  background: linear-gradient(90deg, #f4cb38 0%, #f4a938 100%);
+}
+
+header .container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+header .container .header__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .container .header__section .header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container .header__section .header__logo .logo__plate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 2rem;
+}
+
+header .container .header__section .header__logo .logo__plate .logo__plate_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: .25rem;
+}
+
+header .container .header__section .header__logo .logo__plate .logo__plate_row .item_first_row {
+  height: 20px;
+  width: 20px;
+  border-radius: 3px;
+  background-color: #0066FF;
+  margin-right: .25rem;
+}
+
+header .container .header__section .header__logo .logo__plate .logo__plate_row .item_second_row {
+  height: 20px;
+  width: 20px;
+  border-radius: 3px;
+  background-color: #0043A7;
+  margin-right: .25rem;
+}
+
+header .container .header__section .header__logo .logo__plate .logo__plate_row .item_third_row {
+  height: 20px;
+  width: 20px;
+  border-radius: 3px;
+  background-color: #002D70;
+  margin-right: .25rem;
+}
+
+header .container .header__section .header__logo .logo_name {
+  font-weight: 800;
+  font-size: 25px;
+  color: #000;
+}
+
+header .container .header__section .header__logo .logo_name:hover,
+header .container .header__section .header__logo .logo_name:focus {
+  color: #000;
+}
+
+header .container .header__section .header__nav_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+header .container .header__section .header__nav_menu a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+header .container .header__section .header__nav_menu a:hover,
+header .container .header__section .header__nav_menu a:focus {
+  font-weight: 700;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+header .container .header__section .header__phone {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+/*# sourceMappingURL=Header.css.map */

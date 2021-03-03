@@ -1,0 +1,53 @@
+.footer__section{
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(244,203,56);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  .container{
+    width: 1170px;
+    margin: 0 auto ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    .container_text{
+      font-size: 12px;
+      font-weight: 500;
+    }
+    .footer__section_sell{
+      display: flex;
+      flex-direction: column;
+    }
+    h3{
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .sell_group{
+      display: flex;
+      flex-direction: row;
+      line-height: 1.3rem;
+      .sell_first_group{
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        font-weight: 500;
+        margin-right: 1rem;
+      }
+      .sell_second_group{
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        font-weight: 500;
+      }
+    }
+    .footer__section_adress{
+      display: flex;
+      flex-direction: column;
+      line-height: 1.3rem;
+      .adress_text{
+        font-size: 12px;
+        font-weight: 500;
+      }
+    }    
+  }
+}
