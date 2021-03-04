@@ -1,0 +1,40 @@
+.company__section {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #dddddd8c;
+}
+
+.company__section .container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.company__section .container .company__section_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.company__section .container .company__section_image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 50px;
+}
+/*# sourceMappingURL=CompanyLogo.css.map */

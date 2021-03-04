@@ -1,0 +1,56 @@
+.main__section {
+  font-family: 'Montserrat', sans-serif;
+  height: 90vh;
+  background: rgb(244,203,56);
+  background: linear-gradient(90deg, rgba(244,203,56,1) 0%, rgba(244,169,56,1) 100%);
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+    background: url('./img/bg_image.png') 100% 50% no-repeat;
+    background-size: 620px 400px;
+    .offer_section {
+      display: flex;
+      flex-direction: column;      
+        h1{
+          font-size: 48px;
+          font-weight: 900;
+          margin-bottom: 2rem;
+        }
+        h2{
+          font-size: 20px;
+          font-weight: 500;
+          margin-bottom: 2rem;
+        }
+        .btn{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          height: 65px;
+          width: 150px;
+          color: #fff;
+          font-size: 20px;
+          font-weight: 700;
+          border-radius: 50px;
+          background: rgb(12,65,255);
+          background: linear-gradient(45deg, rgba(12,65,255,1) 0%, rgba(25,47,122,1) 100%);
+          filter: drop-shadow(0 0 0.35rem #0c41ff);
+          transition: all 0.5s;
+        }
+        .btn:focus,
+        .btn:hover{
+          background: rgb(25,47,122);
+          background: linear-gradient(45deg, rgba(25,47,122,1) 0%, rgba(12,65,255,1) 100%);
+          filter: drop-shadow(0 0 0.55rem #0c41ff);
+        }
+      }
+  }
+}  

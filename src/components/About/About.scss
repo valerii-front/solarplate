@@ -1,0 +1,40 @@
+.about__section{
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #dddddd8c;
+  background-image: url(https://static.wixstatic.com/media/b714e3a8b5ef4881bf7d7b75a134aec1.jpg/v1/fill/w_2114,h_683,al_c,q_85,usm_0.66_1.00_0.01/b714e3a8b5ef4881bf7d7b75a134aec1.webp);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  // background-attachment: fixed;
+  background-size: 55% 100%;
+  height: 450px;
+
+  .container{
+    width: 1170px;
+    margin: 0 auto;
+    .about__section_title{
+      display: flex;
+      justify-content: flex-start;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      font-size: 55px;
+      font-weight: 700;
+    }
+    .about__section_description{
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5rem;
+    }
+  }
+}
+// .about__bg_section{
+
+//       background-image: url(https://static.wixstatic.com/media/b714e3a8b5ef4881bf7d7b75a134aec1.jpg/v1/fill/w_2114,h_683,al_c,q_85,usm_0.66_1.00_0.01/b714e3a8b5ef4881bf7d7b75a134aec1.webp);
+//       background-repeat: no-repeat;
+//       background-position: 100% 50%;
+//       background-size: cover;
+//       width: 60%;
+//       height: 500px;
+//     }

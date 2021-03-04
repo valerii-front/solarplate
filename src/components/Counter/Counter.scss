@@ -1,0 +1,48 @@
+.counter__section {
+  font-family: 'Montserrat', sans-serif;
+  height: 200px;
+  background-color: rgb(244,203,56);
+  .container{
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+    .number{
+      font-size: 40px;
+      font-weight: 700;
+      color: #555;
+      margin-bottom: 10px;
+    }
+    .description{
+      font-size: 20px;
+      font-weight: 700;
+      color: #555;
+      line-height: 1.5rem;
+    }
+    .counter__section_watt{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+    }
+    .counter__section_install{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    .counter__section_client{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    .counter__line{
+      background: #fff;
+      width: 1px;
+      height: 80px;
+    }
+  }
+} 
