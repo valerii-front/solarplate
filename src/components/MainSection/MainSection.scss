@@ -54,3 +54,33 @@
       }
   }
 }  
+
+@media screen and (max-width: 600px) {
+  .main__section{
+    width: 100%;
+    height: 60vh;
+    .container{
+      display: flex;
+      justify-content: center; 
+      background-size: 95vw 30vh;
+      background-position: 50% 30%;
+      .offer_section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        h1{
+          font-size: 40px;
+        }
+        .btn{
+          width: 100px;
+          height: 40px;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+
+}

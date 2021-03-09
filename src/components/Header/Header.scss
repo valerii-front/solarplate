@@ -4,7 +4,6 @@ header {
   padding-bottom: 30px;
   background: rgb(244,203,56);
   background: linear-gradient(90deg, rgba(244,203,56,1) 0%, rgba(244,169,56,1) 100%);
-    
   .container {
     width: 1170px;
     margin: 0 auto;
@@ -67,14 +66,18 @@ header {
           color: #000;
           margin-right: 2rem;
           cursor: pointer;
-        }
+          position: relative;
+        }   
         a:hover,
         a:focus {
           font-weight: 700;
           border-bottom: 1px solid rgba(0, 0, 0, 0.250);
         }
-            
       }
+      .icon{
+        display: none;
+        cursor: pointer;
+      }      
       .header__phone {
         font-size: 20px;
         font-weight: 700;
@@ -84,4 +87,70 @@ header {
     
     
   }  
+}
+
+@media screen and (max-width: 600px) {
+  header{
+    width: 100vw;
+
+    .container{
+      width: 95vw;
+      .header__section{
+        .header__logo{
+          .logo__plate{
+            margin-right: 1rem;
+            .logo__plate_row{
+              .item_first_row{
+                width: 15px;
+                height: 15px;
+              }
+              .item_second_row{
+                width: 15px;
+                height: 15px;
+              }
+              .item_third_row{
+                width: 15px;
+                height: 15px;
+              }
+            }
+          }
+          .logo_name{
+            font-size: 20px;
+          }
+        }
+        .header__nav_menu{
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-color: #fff;
+          height: 400px;
+          width: 225px;
+          margin: 0;
+          padding: 0;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center;
+          transform: translateX(-100%);
+          transition: 0.4s ease all;
+          z-index: 10;
+          a{
+            color: #000;
+            &::after{
+              background-color: #000;
+            }
+          }
+          &.active{
+            transform: translateX(0%);
+          }
+        }
+        .header__phone{
+          display: none;
+        }
+        .icon{
+            display: block;
+
+          }
+      }
+    }
+  }
 }

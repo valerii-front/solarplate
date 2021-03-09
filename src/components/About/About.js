@@ -10,16 +10,26 @@ const About = () => {
           O NAS
         </h2>
         <p className="about__section_description">
-          Rynek OZE cały czas się rozwija i zmienia.<br />
-          Technologia ewoluuje, rosną również standardy<br />
-          jakości obsługi. Szacuje się że najbliższe lata będą<br />
-          przełomowe o rozwój fotowoltaiki w Polsce. Głownie<br />
-          do tego ma przyczynić się program dofinansowań<br />
-          dla mikroinstalacji fotowoltaicznych Mój Prąd oraz<br />
-          rosnąca świadomość polaków odnośnie ochrony<br />
-          środowiska i zysków jakie płyną z posiadania własnej<br />
-          instalacji zasilanych panelami solarnymi. Może i TY<br />
-          chcesz skorzystać z tej zielonej transformacji i<br />
+          Rynek OZE cały czas się rozwija i zmienia.
+          <br />
+          Technologia ewoluuje, rosną również standardy
+          <br />
+          jakości obsługi. Szacuje się że najbliższe lata będą
+          <br />
+          przełomowe o rozwój fotowoltaiki w Polsce. Głownie
+          <br />
+          do tego ma przyczynić się program dofinansowań
+          <br />
+          dla mikroinstalacji fotowoltaicznych Mój Prąd oraz
+          <br />
+          rosnąca świadomość polaków odnośnie ochrony
+          <br />
+          środowiska i zysków jakie płyną z posiadania własnej
+          <br />
+          instalacji zasilanych panelami solarnymi. Może i TY
+          <br />
+          chcesz skorzystać z tej zielonej transformacji i
+          <br />
           tworzyć z nami przyszłość
         </p>
       </div>
@@ -27,4 +37,4 @@ const About = () => {
     </div>
   );
 };
-export default About; 
+export default About;

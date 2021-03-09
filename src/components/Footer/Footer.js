@@ -6,7 +6,6 @@ const Footer = () => {
   return (
     <div id="contact" className="footer__section">
       <div className="container">
-        <p className="container_text">© 2023 Paw-Luk Energy</p>
         <div className="footer__section_sell">
           <h3>Dział Sprzedaży</h3>
           <div className="sell_group">
@@ -14,7 +13,7 @@ const Footer = () => {
               sprzedaż@pawlukenergy.pl<br />
               pawel@pawlukenergy.pl<br />
               lukasz@pawlukenergy.pl
-          </p>
+            </p>
             <p className="sell_second_group">
               ewelina@pawlukenergy.pl<br />
               agnieszka@pawlukenergy.pl<br />
@@ -32,6 +31,8 @@ const Footer = () => {
             NIP: 8992888351
           </p>
         </div>
+        <p className="container_text">© 2023 Paw-Luk Energy</p>
+
       </div>
     </div>
   );

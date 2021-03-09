@@ -114,6 +114,7 @@ header .container .header__section .header__nav_menu a {
   color: #000;
   margin-right: 2rem;
   cursor: pointer;
+  position: relative;
 }
 
 header .container .header__section .header__nav_menu a:hover,
@@ -122,9 +123,82 @@ header .container .header__section .header__nav_menu a:focus {
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
 
+header .container .header__section .icon {
+  display: none;
+  cursor: pointer;
+}
+
 header .container .header__section .header__phone {
   font-size: 20px;
   font-weight: 700;
   color: #000;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    width: 100vw;
+  }
+  header .container {
+    width: 95vw;
+  }
+  header .container .header__section .header__logo .logo__plate {
+    margin-right: 1rem;
+  }
+  header .container .header__section .header__logo .logo__plate .logo__plate_row .item_first_row {
+    width: 15px;
+    height: 15px;
+  }
+  header .container .header__section .header__logo .logo__plate .logo__plate_row .item_second_row {
+    width: 15px;
+    height: 15px;
+  }
+  header .container .header__section .header__logo .logo__plate .logo__plate_row .item_third_row {
+    width: 15px;
+    height: 15px;
+  }
+  header .container .header__section .header__logo .logo_name {
+    font-size: 20px;
+  }
+  header .container .header__section .header__nav_menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    height: 400px;
+    width: 225px;
+    margin: 0;
+    padding: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    -webkit-transition: 0.4s ease all;
+    transition: 0.4s ease all;
+    z-index: 10;
+  }
+  header .container .header__section .header__nav_menu a {
+    color: #000;
+  }
+  header .container .header__section .header__nav_menu a::after {
+    background-color: #000;
+  }
+  header .container .header__section .header__nav_menu.active {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  header .container .header__section .header__phone {
+    display: none;
+  }
+  header .container .header__section .icon {
+    display: block;
+  }
 }
 /*# sourceMappingURL=Header.css.map */

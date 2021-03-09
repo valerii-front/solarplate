@@ -88,4 +88,13 @@
   -webkit-filter: drop-shadow(0 0 0.55rem #0c41ff);
           filter: drop-shadow(0 0 0.55rem #0c41ff);
 }
+
+@media screen and (max-width: 600px) {
+  .form__section .container {
+    width: 95vw;
+  }
+  .form__section .container .contact_form input, .form__section .container .contact_form textarea {
+    width: 80vw;
+  }
+}
 /*# sourceMappingURL=Form.css.map */

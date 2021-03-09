@@ -1,6 +1,5 @@
 .offer__section{
   font-family: 'Montserrat', sans-serif;
-  height: 800px;
   .container{
     width: 1170px;
     margin: 0 auto;
@@ -16,6 +15,7 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      margin-bottom: 2rem;
       .offer__home{
         width: 380px;
         .offer__home_title{
@@ -107,6 +107,44 @@
           background-color: rgb(244,203,56);
           
         }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .offer__section{
+    width: 100vw;
+    .container{
+      width: 95vw;
+      h2{
+        font-size: 40px;
+      }
+      .offers{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .offer__home{
+          width: 95vw;
+          margin-bottom: 1rem;
+          .offer__home_title{
+            width: 95vw;
+          }
+        }
+        .offer__business{
+          width: 95vw;
+          margin-bottom: 1rem;
+          .offer__business_title{
+            width: 95vw;
+          }
+        }
+        .offer__farmy{
+          width: 95vw;
+          margin-bottom: 1rem;
+          .offer__farmy_title{
+            width: 95vw;
+          }
+        }        
       }
     }
   }

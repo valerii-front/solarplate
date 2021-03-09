@@ -21,3 +21,21 @@
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .company__section{
+    .container{
+      width: 95vw;
+      .company__section_title{
+        font-size: 30px;
+      }
+      .company__section_image{
+        display: flex;
+        flex-direction: column;
+        img{
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+}

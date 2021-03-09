@@ -89,3 +89,27 @@ opacity: 1;
 transition-duration: 1s;
 transform: scale(1.08);
 }
+
+
+@media screen and (max-width: 600px) {
+  .realizations__section{
+    .section__content{
+      .container{
+        width: 95vw;
+        display: flex;
+        flex-direction: column;
+        .realizations__section_title{
+          font-size: 40px;
+        }
+        .realizations__section_images{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          img{
+            margin-bottom: 1rem;
+          }
+        }
+      }
+    }
+  }
+}

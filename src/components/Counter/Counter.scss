@@ -46,3 +46,19 @@
     }
   }
 } 
+
+@media screen and (max-width: 600px) {
+  .counter__section{
+    .container{
+      width: 100vw;
+      .number{
+        font-size: 25px;
+
+      }
+      .description{
+        font-size: 14px;
+        
+      }
+    }
+  }
+}

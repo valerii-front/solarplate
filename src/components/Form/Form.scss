@@ -1,7 +1,5 @@
 .form__section{
   font-family: 'Montserrat', sans-serif;
-  // background: rgb(244,203,56);
-  // background: linear-gradient(150deg, rgba(244,203,56,1) 0%, rgba(244,169,56,1) 100%); 
   padding-bottom: 30px;
   .container{
     width: 1170px;
@@ -62,6 +60,20 @@
         background: rgb(25,47,122);
         background: linear-gradient(45deg, rgba(25,47,122,1) 0%, rgba(12,65,255,1) 100%);
         filter: drop-shadow(0 0 0.55rem #0c41ff);
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .form__section{
+    .container{
+      width: 95vw;
+      .contact_form{
+        input, textarea{
+          width: 80vw;
+        }
       }
     }
   }

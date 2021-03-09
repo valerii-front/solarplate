@@ -86,4 +86,16 @@
   width: 1px;
   height: 80px;
 }
+
+@media screen and (max-width: 600px) {
+  .counter__section .container {
+    width: 100vw;
+  }
+  .counter__section .container .number {
+    font-size: 25px;
+  }
+  .counter__section .container .description {
+    font-size: 14px;
+  }
+}
 /*# sourceMappingURL=Counter.css.map */
